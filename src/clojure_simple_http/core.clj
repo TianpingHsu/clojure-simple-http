@@ -5,7 +5,7 @@
   (:require [ring.adapter.jetty :refer [run-jetty]]
             [ring.middleware.file :refer [wrap-file]]))
 
-(def port 8080)
+(def port 3000)
 
 (defn not-found [request] ; 
   {:status   404
